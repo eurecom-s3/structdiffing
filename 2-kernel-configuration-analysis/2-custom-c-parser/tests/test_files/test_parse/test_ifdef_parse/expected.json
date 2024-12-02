@@ -1,0 +1,153 @@
+{
+  "is_pointer": false,
+  "is_array": false,
+  "array_size": "0",
+  "ifdefs": [],
+  "qualifier": "",
+  "type": "struct test_struct",
+  "fields": [
+    {
+      "is_pointer": false,
+      "is_array": false,
+      "array_size": "0",
+      "ifdefs": [],
+      "qualifier": "",
+      "type": "int",
+      "name": "a"
+    },
+    {
+      "is_pointer": false,
+      "is_array": false,
+      "array_size": "0",
+      "ifdefs": [],
+      "qualifier": "",
+      "type": "int",
+      "name": "b"
+    },
+    {
+      "is_pointer": false,
+      "is_array": false,
+      "array_size": "0",
+      "ifdefs": [],
+      "qualifier": "",
+      "type": "#ifdef block",
+      "name": "PRIM",
+      "fields": [
+        {
+          "is_pointer": false,
+          "is_array": false,
+          "array_size": "0",
+          "ifdefs": [],
+          "qualifier": "",
+          "type": "int",
+          "name": "c"
+        },
+        {
+          "is_pointer": false,
+          "is_array": false,
+          "array_size": "0",
+          "ifdefs": [],
+          "qualifier": "",
+          "type": "int",
+          "name": "d"
+        }
+      ]
+    },
+    {
+      "is_pointer": false,
+      "is_array": false,
+      "array_size": "0",
+      "ifdefs": [],
+      "qualifier": "",
+      "type": "#ifdef block",
+      "name": "!PRIM",
+      "fields": [
+        {
+          "is_pointer": false,
+          "is_array": false,
+          "array_size": "0",
+          "ifdefs": [],
+          "qualifier": "",
+          "type": "int",
+          "name": "e"
+        },
+        {
+          "is_pointer": false,
+          "is_array": false,
+          "array_size": "0",
+          "ifdefs": [],
+          "qualifier": "",
+          "type": "int",
+          "name": "f"
+        }
+      ]
+    },
+    {
+      "is_pointer": false,
+      "is_array": false,
+      "array_size": "0",
+      "ifdefs": [],
+      "qualifier": "",
+      "type": "int",
+      "name": "g"
+    },
+    {
+      "is_pointer": false,
+      "is_array": false,
+      "array_size": "0",
+      "ifdefs": [],
+      "qualifier": "",
+      "type": "#ifdef block",
+      "name": "OUTER",
+      "fields": [
+        {
+          "is_pointer": false,
+          "is_array": false,
+          "array_size": "0",
+          "ifdefs": [],
+          "qualifier": "",
+          "type": "int",
+          "name": "h"
+        },
+        {
+          "is_pointer": false,
+          "is_array": false,
+          "array_size": "0",
+          "ifdefs": [],
+          "qualifier": "",
+          "type": "#ifdef block",
+          "name": "INNER",
+          "fields": [
+            {
+              "is_pointer": false,
+              "is_array": false,
+              "array_size": "0",
+              "ifdefs": [],
+              "qualifier": "",
+              "type": "int",
+              "name": "j"
+            }
+          ]
+        },
+        {
+          "is_pointer": false,
+          "is_array": false,
+          "array_size": "0",
+          "ifdefs": [],
+          "qualifier": "",
+          "type": "int",
+          "name": "k"
+        }
+      ]
+    },
+    {
+      "is_pointer": false,
+      "is_array": false,
+      "array_size": "0",
+      "ifdefs": [],
+      "qualifier": "",
+      "type": "int",
+      "name": "l"
+    }
+  ]
+}

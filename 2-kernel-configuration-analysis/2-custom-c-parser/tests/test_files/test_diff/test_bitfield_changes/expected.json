@@ -1,0 +1,20 @@
+{
+  "additions": [], 
+  "deletions": [], 
+  "changes": [
+    {
+      "name": "a", 
+      "bitfield": {
+        "old": "2", 
+        "new": "3"
+      }
+    }, 
+    {
+      "name": "b", 
+      "bitfield": {
+        "old": "4", 
+        "new": "5"
+      }
+    }
+  ]
+}

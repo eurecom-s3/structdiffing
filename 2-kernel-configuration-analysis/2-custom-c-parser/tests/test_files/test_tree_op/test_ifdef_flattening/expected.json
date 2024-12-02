@@ -1,0 +1,129 @@
+{
+  "is_pointer": false,
+  "is_array": false,
+  "array_size": "0",
+  "ifdefs": [],
+  "qualifier": "",
+  "type": "struct my_struct",
+  "fields": [
+    {
+      "is_pointer": false,
+      "is_array": false,
+      "array_size": "0",
+      "ifdefs": [
+        "PRIM"
+      ],
+      "qualifier": "",
+      "type": "int",
+      "name": "a1"
+    },
+    {
+      "is_pointer": false,
+      "is_array": false,
+      "array_size": "0",
+      "ifdefs": [
+        "!PRIM"
+      ],
+      "qualifier": "",
+      "type": "int",
+      "name": "a2"
+    },
+    {
+      "is_pointer": false,
+      "is_array": false,
+      "array_size": "0",
+      "ifdefs": [],
+      "qualifier": "",
+      "type": "unsigned int",
+      "name": "a"
+    },
+    {
+      "is_pointer": false,
+      "is_array": false,
+      "array_size": "0",
+      "ifdefs": [
+        "A"
+      ],
+      "qualifier": "",
+      "type": "int",
+      "name": "b"
+    },
+    {
+      "is_pointer": false,
+      "is_array": false,
+      "array_size": "0",
+      "ifdefs": [
+        "A"
+      ],
+      "qualifier": "",
+      "type": "char",
+      "name": "c"
+    },
+    {
+      "is_pointer": false,
+      "is_array": false,
+      "array_size": "0",
+      "ifdefs": [
+        "!A",
+        "B"
+      ],
+      "qualifier": "",
+      "type": "int",
+      "name": "d"
+    },
+    {
+      "is_pointer": false,
+      "is_array": false,
+      "array_size": "0",
+      "ifdefs": [
+        "!A",
+        "!B"
+      ],
+      "qualifier": "",
+      "type": "int",
+      "name": "d2"
+    },
+    {
+      "is_pointer": false,
+      "is_array": false,
+      "array_size": "0",
+      "ifdefs": [
+        "!A"
+      ],
+      "qualifier": "",
+      "type": "float",
+      "name": "e"
+    },
+    {
+      "is_pointer": false,
+      "is_array": false,
+      "array_size": "0",
+      "ifdefs": [
+        "!A"
+      ],
+      "qualifier": "",
+      "type": "float",
+      "name": "e2"
+    },
+    {
+      "is_pointer": true,
+      "is_array": false,
+      "array_size": "0",
+      "ifdefs": [],
+      "qualifier": "",
+      "type": "int",
+      "name": "f"
+    },
+    {
+      "is_pointer": false,
+      "is_array": false,
+      "array_size": "0",
+      "ifdefs": [
+        "PRIM"
+      ],
+      "qualifier": "",
+      "type": "int",
+      "name": "p2"
+    }
+  ]
+}

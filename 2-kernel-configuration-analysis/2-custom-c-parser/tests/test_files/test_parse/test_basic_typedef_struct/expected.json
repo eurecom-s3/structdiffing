@@ -1,0 +1,19 @@
+{
+    "is_pointer": false,
+    "is_array": false,
+    "array_size": "0",
+    "qualifier": "",
+    "ifdefs": [],
+    "fields": [
+        {
+            "is_pointer": true,
+            "is_array": false,
+            "array_size": "0",
+            "ifdefs": [],
+            "type": "int",
+            "qualifier": "",
+            "name": "a"
+        }
+    ],
+    "type": "book"
+}

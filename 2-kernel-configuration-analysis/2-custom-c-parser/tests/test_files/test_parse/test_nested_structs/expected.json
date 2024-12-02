@@ -1,0 +1,47 @@
+{
+  "is_pointer": false,
+  "is_array": false,
+  "array_size": "0",
+  "ifdefs": [],
+  "qualifier": "",
+  "type": "struct Book",
+  "fields": [
+    {
+      "is_pointer": false,
+      "is_array": false,
+      "array_size": "0",
+      "ifdefs": [],
+      "qualifier": "",
+      "type": "int",
+      "name": "a"
+    },
+    {
+      "is_pointer": false,
+      "is_array": false,
+      "array_size": "0",
+      "ifdefs": [],
+      "qualifier": "",
+      "type": "struct Page",
+      "fields": [
+        {
+          "is_pointer": true,
+          "is_array": false,
+          "array_size": "0",
+          "ifdefs": [],
+          "qualifier": "",
+          "type": "int",
+          "name": "pageCount"
+        },
+        {
+          "is_pointer": false,
+          "is_array": true,
+          "array_size": "20",
+          "ifdefs": [],
+          "qualifier": "",
+          "type": "char",
+          "name": "heading"
+        }
+      ]
+    }
+  ]
+}

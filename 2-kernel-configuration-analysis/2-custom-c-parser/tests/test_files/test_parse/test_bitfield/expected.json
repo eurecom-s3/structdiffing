@@ -1,0 +1,40 @@
+{
+  "is_pointer": false,
+  "is_array": false,
+  "array_size": "0",
+  "ifdefs": [],
+  "qualifier": "",
+  "type": "struct Books",
+  "fields": [
+    {
+      "is_pointer": false,
+      "is_array": false,
+      "array_size": "0",
+      "ifdefs": [],
+      "qualifier": "",
+      "type": "int",
+      "name": "a",
+      "bitfield": "1"
+    },
+    {
+      "is_pointer": false,
+      "is_array": false,
+      "array_size": "0",
+      "ifdefs": [],
+      "qualifier": "",
+      "type": "unsigned char",
+      "name": "b",
+      "bitfield": "2"
+    },
+    {
+      "is_pointer": false,
+      "is_array": false,
+      "array_size": "0",
+      "ifdefs": [],
+      "qualifier": "",
+      "type": "unsigned char",
+      "name": "c",
+      "bitfield": "3"
+    }
+  ]
+}

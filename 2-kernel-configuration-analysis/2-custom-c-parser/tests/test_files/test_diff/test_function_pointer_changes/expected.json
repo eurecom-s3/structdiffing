@@ -1,0 +1,51 @@
+{
+  "additions": [], 
+  "deletions": [], 
+  "changes": [
+    {
+      "name": "pt", 
+      "return": {
+        "is_pointer": {
+          "old": true, 
+          "new": false
+        }, 
+        "type": {
+          "old": "double", 
+          "new": "int"
+        }
+      }, 
+      "parameters": {
+        "old": [
+          {
+            "is_pointer": true, 
+            "type": "float", 
+            "name": "aaaa"
+          }, 
+          {
+            "type": "int"
+          }, 
+          {
+            "qualifier": "const", 
+            "type": "struct b", 
+            "name": "a"
+          }
+        ], 
+        "new": [
+          {
+            "type": "int", 
+            "name": "a"
+          }, 
+          {
+            "qualifier": "const", 
+            "type": "struct b"
+          }, 
+          {
+            "is_pointer": true, 
+            "type": "float", 
+            "name": "c"
+          }
+        ]
+      }
+    }
+  ]
+}

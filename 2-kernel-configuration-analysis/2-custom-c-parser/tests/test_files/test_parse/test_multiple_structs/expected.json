@@ -1,0 +1,49 @@
+[
+  {
+    "is_pointer": false,
+    "is_array": false,
+    "array_size": "0",
+    "ifdefs": [],
+    "qualifier": "",
+    "type": "int",
+    "name": "a"
+  },
+  {
+    "is_pointer": false,
+    "is_array": false,
+    "array_size": "0",
+    "ifdefs": [],
+    "qualifier": "",
+    "type": "struct Book1",
+    "fields": [
+      {
+        "is_pointer": false,
+        "is_array": false,
+        "array_size": "0",
+        "ifdefs": [],
+        "qualifier": "",
+        "type": "int",
+        "name": "a"
+      }
+    ]
+  },
+  {
+    "is_pointer": false,
+    "is_array": false,
+    "array_size": "0",
+    "ifdefs": [],
+    "qualifier": "",
+    "type": "struct Book2",
+    "fields": [
+      {
+        "is_pointer": false,
+        "is_array": false,
+        "array_size": "0",
+        "ifdefs": [],
+        "qualifier": "",
+        "type": "float",
+        "name": "a"
+      }
+    ]
+  }
+]

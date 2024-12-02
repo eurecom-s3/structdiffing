@@ -1,0 +1,27 @@
+{
+  "additions": [], 
+  "deletions": [], 
+  "changes": [
+    {
+      "name": "a", 
+      "type": {
+        "old": "int", 
+        "new": "double"
+      }
+    }, 
+    {
+      "name": "struct sub_struct.b", 
+      "type": {
+        "old": "int", 
+        "new": "double"
+      }
+    }, 
+    {
+      "name": "struct sub_struct.c", 
+      "type": {
+        "old": "int", 
+        "new": "double"
+      }
+    }
+  ]
+}

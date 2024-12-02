@@ -1,0 +1,42 @@
+{
+  "is_pointer": false,
+  "is_array": false,
+  "array_size": "0",
+  "ifdefs": [],
+  "qualifier": "",
+  "type": "struct Books",
+  "fields": [
+    {
+      "is_pointer": true,
+      "is_array": false,
+      "array_size": "0",
+      "ifdefs": [],
+      "qualifier": "",
+      "type": "function pointer",
+      "return": {
+        "is_pointer": true,
+        "type": "void"
+      },
+      "name": "ctor",
+      "parameters": [
+        {
+          "is_pointer": false,
+          "type": "int"
+        },
+        {
+          "is_pointer": true,
+          "type": "double"
+        }
+      ]
+    },
+    {
+      "is_pointer": false,
+      "is_array": false,
+      "array_size": "0",
+      "ifdefs": [],
+      "qualifier": "",
+      "type": "int",
+      "name": "a"
+    }
+  ]
+}

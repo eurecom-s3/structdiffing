@@ -1,0 +1,151 @@
+{
+    "Big_A": {
+        "name": "Big_A",
+        "struct_def": "struct Big_A {\n    int a;\n#ifdef defined (CONFIG_1)\n    #if CONFIG_2 && CONFIG_3\n        int c;\n    struct {\n        union {\n            int d;\n        } direct_u;\n\n    } direct_s;\n    \n    #endif\n    int d;\n    struct Small_A small_a;\n#endif\n    int m;\n#ifdef CONFIG_M\n    int z;\n#endif\n}",
+        "struct_parsed": {
+            "is_pointer": false,
+            "is_array": false,
+            "array_size": "0",
+            "ifdefs": [],
+            "qualifier": "",
+            "type": "struct Big_A",
+            "fields": [
+                {
+                    "is_pointer": false,
+                    "is_array": false,
+                    "array_size": "0",
+                    "ifdefs": [],
+                    "qualifier": "",
+                    "type": "int",
+                    "name": "a",
+                    "pos": "0"
+                },
+                {
+                    "is_pointer": false,
+                    "is_array": false,
+                    "array_size": "0",
+                    "ifdefs": [
+                        "defined (CONFIG_1)",
+                        "CONFIG_2 && CONFIG_3"
+                    ],
+                    "qualifier": "",
+                    "type": "int",
+                    "name": "c",
+                    "pos": "1"
+                },
+                {
+                    "is_pointer": false,
+                    "is_array": false,
+                    "array_size": "0",
+                    "ifdefs": [
+                        "defined (CONFIG_1)",
+                        "CONFIG_2 && CONFIG_3"
+                    ],
+                    "qualifier": "",
+                    "fields": [
+                        {
+                            "is_pointer": false,
+                            "is_array": false,
+                            "array_size": "0",
+                            "ifdefs": [
+                                "defined (CONFIG_1)",
+                                "CONFIG_2 && CONFIG_3"
+                            ],
+                            "qualifier": "",
+                            "type": "union",
+                            "fields": [
+                                {
+                                    "is_pointer": false,
+                                    "is_array": false,
+                                    "array_size": "0",
+                                    "ifdefs": [
+                                        "defined (CONFIG_1)",
+                                        "CONFIG_2 && CONFIG_3"
+                                    ],
+                                    "qualifier": "",
+                                    "type": "int",
+                                    "name": "d",
+                                    "pos": "0"
+                                }
+                            ],
+                            "name": "direct_u",
+                            "pos": "0"
+                        }
+                    ],
+                    "type": "direct_s",
+                    "pos": "2"
+                },
+                {
+                    "is_pointer": false,
+                    "is_array": false,
+                    "array_size": "0",
+                    "ifdefs": [
+                        "defined (CONFIG_1)"
+                    ],
+                    "qualifier": "",
+                    "type": "int",
+                    "name": "d",
+                    "pos": "3"
+                },
+                {
+                    "is_pointer": false,
+                    "is_array": false,
+                    "array_size": "0",
+                    "ifdefs": [
+                        "defined (CONFIG_1)"
+                    ],
+                    "qualifier": "",
+                    "type": "struct Small_A",
+                    "name": "small_a",
+                    "pos": "4"
+                },
+                {
+                    "is_pointer": false,
+                    "is_array": false,
+                    "array_size": "0",
+                    "ifdefs": [],
+                    "qualifier": "",
+                    "type": "int",
+                    "name": "m",
+                    "pos": "5"
+                },
+                {
+                    "is_pointer": false,
+                    "is_array": false,
+                    "array_size": "0",
+                    "ifdefs": [
+                        "CONFIG_M"
+                    ],
+                    "qualifier": "",
+                    "type": "int",
+                    "name": "z",
+                    "pos": "6"
+                }
+            ]
+        }
+    },
+    "Small_A": {
+        "name": "Small_A",
+        "struct_def": "struct Small_A {\n int a;\n}",
+        "struct_parsed": {
+            "is_pointer": false,
+            "is_array": false,
+            "array_size": "0",
+            "ifdefs": [],
+            "qualifier": "",
+            "type": "struct Small_A",
+            "fields": [
+                {
+                    "is_pointer": false,
+                    "is_array": false,
+                    "array_size": "0",
+                    "ifdefs": [],
+                    "qualifier": "",
+                    "type": "int",
+                    "name": "a",
+                    "pos": "0"
+                }
+            ]
+        }
+    }
+}

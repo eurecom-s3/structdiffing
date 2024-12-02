@@ -1,0 +1,18 @@
+{
+    "Big_A": {
+        "name": "Big_A",
+        "struct_def": "struct Big_A {\n    struct Small_A small_a;\n    struct Small_B* small_b;\n    struct {\n        union {\n            struct Small_C small_c;\n        };\n\n    } inlined;\n\n}\n"
+    },
+    "Small_A": {
+        "name": "Small_A",
+        "struct_def": "struct Small_A {\n    struct Small_D small_d; \n}"
+    },
+    "Small_B": {
+        "name": "Small_B",
+        "struct_def": "struct Small_B {\n    struct Small_D small_d;\n}"
+    },
+    "Small_C": {
+        "name": "Small_C",
+        "struct_def": "struct Small_C {\n    struct Small_C1 small_c1;\n}"
+    }
+}

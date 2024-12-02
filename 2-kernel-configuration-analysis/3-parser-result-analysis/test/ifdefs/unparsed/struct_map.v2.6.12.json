@@ -1,0 +1,10 @@
+{
+    "Big_A": {
+        "name": "Big_A",
+        "struct_def": "struct Big_A {\n    int a;\n#ifdef defined (CONFIG_1)\n    #if CONFIG_2 && CONFIG_3\n        int b;\n        int c;\n    #endif\n    int d;\n    struct Small_A small_a;\n#endif\n}"
+    },
+    "Small_A": {
+        "name": "Small_A",
+        "struct_def": "struct Small_A {\n    int a;\n#ifdef CONFIG_SMALL_1\n    int b;\n#endif\n}"
+    }
+}

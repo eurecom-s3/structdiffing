@@ -1,0 +1,64 @@
+  {
+    "is_pointer": false,
+    "is_array": false,
+    "array_size": "0",
+    "ifdefs": [],
+    "qualifier": "",
+    "type": "struct Books",
+    "fields": [
+      {
+        "is_pointer": false,
+        "is_array": false,
+        "array_size": "0",
+        "ifdefs": [],
+        "qualifier": "",
+        "type": "int",
+        "name": "a1"
+      },
+      {
+        "is_pointer": false,
+        "is_array": false,
+        "array_size": "0",
+        "ifdefs": [],
+        "qualifier": "",
+        "type": "int",
+        "name": "a2"
+      },
+      {
+        "is_pointer": false,
+        "is_array": false,
+        "array_size": "0",
+        "ifdefs": [],
+        "qualifier": "",
+        "type": "int",
+        "name": "a3"
+      },
+      {
+        "is_pointer": false,
+        "is_array": false,
+        "array_size": "0",
+        "ifdefs": [],
+        "qualifier": "",
+        "type": "int",
+        "name": "b1"
+      },
+      {
+        "is_pointer": false,
+        "is_array": false,
+        "array_size": "0",
+        "ifdefs": [],
+        "qualifier": "",
+        "type": "int",
+        "name": "b2"
+      },
+      {
+        "is_pointer": false,
+        "is_array": false,
+        "array_size": "0",
+        "ifdefs": [],
+        "qualifier": "",
+        "type": "int",
+        "name": "b3"
+      }
+    ]
+  }

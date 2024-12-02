@@ -1,0 +1,42 @@
+{
+  "additions": [
+    "c"
+  ], 
+  "deletions": [
+    "b"
+  ], 
+  "changes": [
+    {
+      "name": "d", 
+      "type": {
+        "old": "int", 
+        "new": "double"
+      }
+    }, 
+    {
+      "name": "e", 
+      "is_pointer": {
+        "old": false, 
+        "new": true
+      }
+    }, 
+    {
+      "name": "f", 
+      "is_array": {
+        "old": false, 
+        "new": true
+      }, 
+      "array_size": {
+        "old": "0", 
+        "new": "3"
+      }
+    }, 
+    {
+      "name": "g", 
+      "array_size": {
+        "old": "2", 
+        "new": "5"
+      }
+    }
+  ]
+}

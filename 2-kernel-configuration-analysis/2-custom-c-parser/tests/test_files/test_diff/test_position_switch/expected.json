@@ -1,0 +1,32 @@
+{
+  "additions": [
+    "o", 
+    "d"
+  ], 
+  "deletions": [
+    "f"
+  ], 
+  "changes": [
+    {
+      "name": "a", 
+      "pos": {
+        "old": "0", 
+        "new": "1"
+      }
+    }, 
+    {
+      "name": "b", 
+      "pos": {
+        "old": "1", 
+        "new": "0"
+      }
+    }, 
+    {
+      "name": "e", 
+      "pos": {
+        "old": "3", 
+        "new": "4"
+      }
+    }
+  ]
+}
